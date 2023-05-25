@@ -1,7 +1,10 @@
 # Rust Snake
 
 A snake game written in Rust.
+
 This is a modified/upgraded version of the game found at this repo:
+
+https://github.com/SLMT/rust-snake
 
 
 
