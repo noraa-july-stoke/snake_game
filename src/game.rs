@@ -171,10 +171,10 @@ impl Game {
                 self.attach_chance += 0.02;
             }
             if self.attach_chance > 0.99 {
+                self.add_obstacle();
+                self.add_obstacle();
             }
         }
-        self.add_obstacle();
-        self.add_obstacle();
     }
 
     fn check_if_the_snake_alive(&self, dir: Option<Direction>) -> bool {
