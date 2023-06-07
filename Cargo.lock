@@ -1454,7 +1454,6 @@ dependencies = [
 name = "rust-snake"
 version = "0.1.0"
 dependencies = [
- "gfx_device_gl",
  "piston_window",
  "rand",
 ]

@@ -7,7 +7,6 @@ This is a modified/upgraded version of the game found at this repo:
 https://github.com/SLMT/rust-snake
 
 
-
 <img src="screenshot.png" />
 
 ## How To Run...
