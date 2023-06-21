@@ -81,10 +81,11 @@ impl Game {
     pub fn draw(&self, con: &Context, g: &mut G2d) {
         self.snake.draw(con, g);
 
-        // Draw the food
+        // Draw food
         if self.food_exist {
             draw_block(FOOD_COLOR, self.food_x, self.food_y, con, g);
         }
+
         // Draw obstacles
         for obstacle in &self.obstacles {
             draw_block([0.0, 0.0, 0.0, 1.0], obstacle.x, obstacle.y, con, g);
